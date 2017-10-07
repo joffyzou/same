@@ -8,6 +8,54 @@ body { background-color: #f1f3f6; }
 	z-index: 1000;
 }
 
+.color-line {
+	background: #f7f9fa;
+    height: 6px;
+    background-image: -webkit-linear-gradient(left,#34495e,#34495e 25%,#9b59b6 25%,#9b59b6 35%,#3498db 35%,#3498db 45%,#62cb31 45%,#62cb31 55%,#ffb606 55%,#ffb606 65%,#e67e22 65%,#e67e22 75%,#e74c3c 85%,#e74c3c 85%,#c0392b 85%,#c0392b 100%);
+    background-image: -moz-linear-gradient(left,#34495e,#34495e 25%,#9b59b6 25%,#9b59b6 35%,#3498db 35%,#3498db 45%,#62cb31 45%,#62cb31 55%,#ffb606 55%,#ffb606 65%,#e67e22 65%,#e67e22 75%,#e74c3c 85%,#e74c3c 85%,#c0392b 85%,#c0392b 100%);
+    background-image: -ms-linear-gradient(left,#34495e,#34495e 25%,#9b59b6 25%,#9b59b6 35%,#3498db 35%,#3498db 45%,#62cb31 45%,#62cb31 55%,#ffb606 55%,#ffb606 65%,#e67e22 65%,#e67e22 75%,#e74c3c 85%,#e74c3c 85%,#c0392b 85%,#c0392b 100%);
+    background-image: linear-gradient(to right,#34495e,#34495e 25%,#9b59b6 25%,#9b59b6 35%,#3498db 35%,#3498db 45%,#62cb31 45%,#62cb31 55%,#ffb606 55%,#ffb606 65%,#e67e22 65%,#e67e22 75%,#e74c3c 85%,#e74c3c 85%,#c0392b 85%,#c0392b 100%);
+    background-size: 100% 6px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.joffe {
+	font-size: inherit;
+}
+
+#logo {
+	background-color: #f7f9fa;
+	border-bottom: 1px solid #eaeaea;
+	text-align: center;
+	width: 180px;
+	height: 56px;
+	padding: 18px 10px 18px 18px;
+	float: left;
+}
+
+.small-logo {
+	display: none;
+	text-align: center;
+	padding-top: 18px;
+	font-size: 14px;
+	font-weight: 800; 
+}
+
+.hide-menu {
+	padding: 18px 26px 17px 26px;
+	font-size: 14px;
+	float: left;
+	margin-right: 15px;
+	border-right: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	background-color: #f7f9fa;
+	cursor: pointer;
+}
+.hide-menu:hover {
+	background-color: #f1f4f6;
+}
+
 #aside {
 	width: 180px;
 	position: fixed;
@@ -31,4 +79,15 @@ body { background-color: #f1f3f6; }
 	bottom: 0;
 	right: 0;
 	left: 180px;
+}
+
+@media(max-width: 768px){
+	#logo {
+		display: none;
+	}
+	.small-logo {
+		display: block;
+		float: left;
+	}
+
 }
