@@ -34,6 +34,12 @@ body { background-color: #f1f3f6; }
 	float: left;
 }
 
+#logo span {
+	font-weight: 600;
+	color: #34495e;
+	font-size: 14px;
+}
+
 .small-logo {
 	display: none;
 	text-align: center;
@@ -73,6 +79,7 @@ body { background-color: #f1f3f6; }
 }
 
 .footer {
+	background-color: white;
 	padding: 10px 18px;
 	border-top: 1px solid #eaeaea;
 	position: fixed;
