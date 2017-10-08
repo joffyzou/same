@@ -1,4 +1,6 @@
-body { background-color: #f1f3f6; }
+html, 
+body { height: 100%; }
+
 #header {
 	background-color: white;
 	height: 62px;
@@ -20,9 +22,7 @@ body { background-color: #f1f3f6; }
     background-repeat: no-repeat;
 }
 
-.joffe {
-	font-size: inherit;
-}
+.joffe { font-size: inherit; }
 
 #logo {
 	background-color: #f7f9fa;
@@ -63,11 +63,28 @@ body { background-color: #f1f3f6; }
 }
 
 #aside {
+	background-color: white;
 	width: 180px;
 	position: fixed;
 	top: 62px;
 	left: 0;
 	bottom: 0;
+}
+
+#navigation li {
+	border-bottom: 1px solid #eaeaea;
+}
+
+.profile {
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #eaeaea;
+}
+.profile img {
+	width: 76px;
+	height: 76px;
+	border-radius: 50%;
+	margin-bottom: 15px;
 }
 
 #section {
@@ -76,6 +93,7 @@ body { background-color: #f1f3f6; }
 	position: relative;
 	top: 62px;
 	margin-left: 180px;
+	padding-bottom: 62px;
 }
 
 .footer {
