@@ -3,40 +3,10 @@
 </div>
 <div id="navigation">
 	<ul class="nav">
-		<li class="active">
-			<a href="dashboard.html">
+		<li class="active" *ngFor="let menu of menus">
+			<a href="{{menu.href}}">
 				<i></i>
-				<span>控制面板</span>
-			</a>
-		</li>
-		<li>
-			<a href="appoint.html">
-				<i></i>
-				<span>预约管理</span>
-			</a>
-		</li>
-		<li>
-			<a href="orders.html">
-				<i></i>
-				<span>订单管理</span>
-			</a>
-		</li>
-		<li>
-			<a href="sales.html">
-				<i></i>
-				<span>促销管理</span>
-			</a>
-		</li>
-		<li>
-			<a href="technician.html">
-				<i></i>
-				<span>技师管理</span>
-			</a>
-		</li>
-		<li>
-			<a href="commodity.html">
-				<i></i>
-				<span>商品管理</span>
+				<span>{{menu.name}}</span>
 			</a>
 		</li>
 	</ul>
