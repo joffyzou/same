@@ -87,7 +87,7 @@ body { height: 100%; }
 	margin-bottom: 15px;
 }
 
-#section {
+section {
 	background-color: #f1f3f6;
 	border-left: 1px solid #eaeaea;
 	position: relative;
@@ -100,6 +100,7 @@ body { height: 100%; }
 	background-color: white;
 	padding: 10px 18px;
 	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
 	position: fixed;
 	bottom: 0;
 	right: 0;
